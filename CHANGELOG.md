@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 1.11.23
+
+- Switched `lockfree` dependency to `open-ever/lockfree` pinned at tag `v0.5.2`
+
 ## Version 1.12.22
 
 - Checked public key duplicates in check_signatures function

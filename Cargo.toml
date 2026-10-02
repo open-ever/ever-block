@@ -2,7 +2,7 @@
 build = 'build.rs'
 edition = '2021'
 name = 'ever_block'
-version = '1.11.22'
+version = '1.11.23'
 
 [dependencies]
 aes-ctr = '0.6'
@@ -27,7 +27,7 @@ sha2 = '0.10'
 smallvec = { features = [ 'const_new', 'union', 'write' ], version = '1.10' }
 thiserror = '1.0'
 x25519-dalek = '2.0'
-lockfree = { git = 'https://github.com/everx-labs/lockfree.git' }
+lockfree = { git = 'https://github.com/open-ever/lockfree.git', tag = 'v0.5.2' }
 
 [dev-dependencies]
 criterion = '0.4'
